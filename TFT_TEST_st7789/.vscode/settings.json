@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.default.compilerPath": "C:/Users/27548/.platformio/packages/toolchain-agrv/bin/riscv64-unknown-elf-gcc.exe",
+    "files.associations": {
+        "board.h": "c",
+        "*.hx": "c"
+    }
+}
