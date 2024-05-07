@@ -38,16 +38,7 @@ extern "C"
 #define EXT_GPIO_BITS 0b1110
 
 #define GPIO_PIN_SETVALUE(gpio, bits, values) GPIO_SetValue(gpio, bits, bits | bits * values)
-#define GPIO_PIN_GETVALUE(gpio, bits) (GPIO_GetValue(gpio, bits) & bits)
-
-    // #define I2C_SW_GPIO_MASK APB_MASK_GPIO4
-    // #define I2C_SW_GPIO_PORT GPIO4
-    // #define I2C_SW_SDA GPIO_BIT1
-    // #define I2C_SW_SCL GPIO_BIT2
-
-// #define DHT11_GPIO_MASK APB_MASK_GPIO4
-// #define DHT11_PORT GPIO4
-// #define DHT11_BITS GPIO_BIT5
+#define GPIO_PIN_GETVALUE(gpio, bits) (((GPIO_GetValue(gpio, bits) & bits) != 0) ? 1 : 0)
 
     SYS_HSE_BypassTypeDef board_hse_source(void);
     RTC_ClkSourceTypeDef board_rtc_source(void);
