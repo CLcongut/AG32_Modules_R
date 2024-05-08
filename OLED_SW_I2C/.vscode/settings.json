@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "board.h": "c",
+        "alta.h": "c",
+        "spi.h": "c"
+    }
+}
