@@ -26,23 +26,23 @@
 
 //-----------------LCD端口定义----------------
 
-#define LCD_SCLK_Clr() GPIO_SetLow(GPIO4, LCD_GPIO_SCLK) // SCL=SCLK
-#define LCD_SCLK_Set() GPIO_SetHigh(GPIO4, LCD_GPIO_SCLK)
+#define LCD_SCLK_Clr() GPIO_SetLow(LCD_GPIO_PORT, LCD_GPIO_SCLK) // SCL=SCLK
+#define LCD_SCLK_Set() GPIO_SetHigh(LCD_GPIO_PORT, LCD_GPIO_SCLK)
 
-#define LCD_MOSI_Clr() GPIO_SetLow(GPIO4, LCD_GPIO_MOSI) // SDA=MOSI
-#define LCD_MOSI_Set() GPIO_SetHigh(GPIO4, LCD_GPIO_MOSI)
+#define LCD_MOSI_Clr() GPIO_SetLow(LCD_GPIO_PORT, LCD_GPIO_MOSI) // SDA=MOSI
+#define LCD_MOSI_Set() GPIO_SetHigh(LCD_GPIO_PORT, LCD_GPIO_MOSI)
 
-#define LCD_RES_Clr() GPIO_SetLow(GPIO4, LCD_GPIO_RES) // RES
-#define LCD_RES_Set() GPIO_SetHigh(GPIO4, LCD_GPIO_RES)
+#define LCD_RES_Clr() GPIO_SetLow(LCD_GPIO_PORT, LCD_GPIO_RES) // RES
+#define LCD_RES_Set() GPIO_SetHigh(LCD_GPIO_PORT, LCD_GPIO_RES)
 
-#define LCD_DC_Clr() GPIO_SetLow(GPIO4, LCD_GPIO_DC) // DC
-#define LCD_DC_Set() GPIO_SetHigh(GPIO4, LCD_GPIO_DC)
+#define LCD_DC_Clr() GPIO_SetLow(LCD_GPIO_PORT, LCD_GPIO_DC) // DC
+#define LCD_DC_Set() GPIO_SetHigh(LCD_GPIO_PORT, LCD_GPIO_DC)
 
-#define LCD_CS_Clr() GPIO_SetLow(GPIO4, LCD_GPIO_CS) // CS
-#define LCD_CS_Set() GPIO_SetHigh(GPIO4, LCD_GPIO_CS)
+#define LCD_CS_Clr() GPIO_SetLow(LCD_GPIO_PORT, LCD_GPIO_CS) // CS
+#define LCD_CS_Set() GPIO_SetHigh(LCD_GPIO_PORT, LCD_GPIO_CS)
 
-#define LCD_BLK_Clr() GPIO_SetLow(GPIO4, LCD_GPIO_BLK) // BLK
-#define LCD_BLK_Set() GPIO_SetHigh(GPIO4, LCD_GPIO_BLK)
+#define LCD_BLK_Clr() GPIO_SetLow(LCD_GPIO_PORT, LCD_GPIO_BLK) // BLK
+#define LCD_BLK_Set() GPIO_SetHigh(LCD_GPIO_PORT, LCD_GPIO_BLK)
 
 void LCD_GPIO_Init(void);                                                 // 初始化GPIO
 void LCD_Writ_Bus(uint8_t dat);                                           // 模拟SPI时序
