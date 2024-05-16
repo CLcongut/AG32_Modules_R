@@ -1,0 +1,32 @@
+SYSCLK 240
+
+HSECLK 8
+
+GPIO6_2 PIN_23 # IO_Button1
+GPIO6_4 PIN_24 # IO_Button2
+GPIO6_5 PIN_29 # IO_Switch1, must be disabled if DAC0 is used
+GPIO6_6 PIN_30 # IO_Switch2, must be disabled if DAC1 is used
+
+# Uncomment this line to use EXT_INT0. This is commented out by default because INT_Init() will stuck if PIN_24 is not 
+# weakly pulled up. For example, when this .ve is used on an unintended board.
+# EXT_INT0 PIN_24
+
+USB0_ID PIN_78
+
+UART0_UARTRXD PIN_69
+UART0_UARTTXD PIN_68
+# UART1_UARTTXD PIN_67
+# UART1_UARTRXD PIN_66
+
+# INTB is shared with RXD2 on 32-pin. It can be used only in RMII mode.
+MAC0_PHY_INTB PIN_62
+
+# GPIO4_1 PIN_34 # LED1
+# GPIO4_2 PIN_33 # LED2
+# GPIO4_3 PIN_32 # LED3
+# GPIO4_4 PIN_31 # LED4
+
+GPIO4_0 PIN_82 # MOTOR_A
+GPIO4_1 PIN_84 # MOTOR_B
+GPIO4_2 PIN_86 # MOTOR_C
+GPIO4_3 PIN_88 # MOTOR_D
