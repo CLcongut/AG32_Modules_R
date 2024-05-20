@@ -1,0 +1,60 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S",
+                "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/include",
+                "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/lib",
+                "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/.pio/build/debug",
+                "C:/.platformio/packages/framework-agrv_sdk/misc",
+                "C:/.platformio/packages/framework-agrv_sdk/src",
+                "C:/.platformio/platforms/AgRV/boards/agrv2k_407",
+                "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/.pio/logic",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S",
+                    "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/include",
+                    "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/lib",
+                    "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/.pio/build/debug",
+                    "C:/.platformio/packages/framework-agrv_sdk/misc",
+                    "C:/.platformio/packages/framework-agrv_sdk/src",
+                    "C:/.platformio/platforms/AgRV/boards/agrv2k_407",
+                    "D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/.pio/logic",
+                    ""
+                ]
+            },
+            "defines": [
+                "AGM_BOARD_INFO_H=\"D:/ALLtheDATA/AG32/Projects/AG32_Modules_R/ST7735S/.pio/logic/board.hx\"",
+                "PLATFORMIO=60115",
+                "BOARD=agrv2k_407",
+                "DEFINE_MALLOC",
+                "DEFINE_FREE",
+                "SDK_DEBUG",
+                "LOGGER_UART=0",
+                "LOGGER_BAUD_RATE=115200",
+                "FLASH_BOOT",
+                "BOARD_DEBUG",
+                "__PLATFORMIO_BUILD_DEBUG__",
+                ""
+            ],
+            "compilerPath": "C:/.platformio/packages/toolchain-agrv/bin/riscv64-unknown-elf-gcc.exe",
+            "compilerArgs": [
+                "-mstrict-align",
+                "-march=rv32imafc",
+                "-mabi=ilp32f",
+                "-mcmodel=medlow",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

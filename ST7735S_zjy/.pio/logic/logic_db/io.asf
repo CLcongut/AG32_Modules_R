@@ -1,0 +1,34 @@
+set_location_assignment -to PIN_23 PIN_23
+set_location_assignment -to PIN_24 PIN_24
+set_location_assignment -to PIN_26 PIN_26
+set_location_assignment -to PIN_29 PIN_29
+set_location_assignment -to PIN_30 PIN_30
+set_location_assignment -to PIN_46 PIN_46
+set_location_assignment -to PIN_47 PIN_47
+set_location_assignment -to PIN_48 PIN_48
+set_location_assignment -to PIN_51 PIN_51
+set_location_assignment -to PIN_52 PIN_52
+set_location_assignment -to PIN_62 PIN_62
+set_location_assignment -to PIN_68 PIN_68
+set_location_assignment -to PIN_69 PIN_69
+set_location_assignment -to PIN_78 PIN_78
+set_location_assignment -to PIN_HSE PIN_HSE
+set_location_assignment -to PIN_HSI PIN_HSI
+set_location_assignment -to PIN_OSC PIN_OSC
+set_instance_assignment -name IO_STANDARD -to PIN_23 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_24 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_26 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_29 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_30 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_46 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_47 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_48 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_51 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_52 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_62 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_68 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_69 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_78 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_HSE "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_HSI "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to PIN_OSC "3.3-V LVTTL"
